@@ -1,13 +1,14 @@
 # Project Brief: AgriEvidence
-Tagline:Evidence about the land, not just the farm.
+**Tagline**:Evidence about the land, not just the farm.
 
 ## Part 1: The Question
-Which agricultural sites in Akamkpa Local Government Area,overlap with or sit within 1 kilometer of protected forest reserves and experienced forest cover loss from 2020 to present?
+Which agricultural sites in Akamkpa Local Government Area, overlap with or sit within 1 kilometer of protected forest reserves and experienced forest cover loss from 2020 to present?
 
 ## Part 2: Why It Matters
-Agricultural expansion in Akamkpa LGA frequently encroaches on protected tropical rainforest boundaries.Environmental compliance officers, carbon-credit developers, and agricultural investors currently lack a single tool to quickly verify whether a farm's history involves recent deforestation. AgriEvidence compiles these layers into an automated report to prove sustainable, non-deforested production.
+Agricultural expansion in Akamkpa LGA frequently encroaches on protected tropical rainforest boundaries. Environmental compliance officers, carbon-credit developers, and agricultural investors currently lack a single tool to quickly verify whether a farm's history involves recent deforestation. AgriEvidence compiles these layers into an automated report to prove sustainable, non-deforested production.
 
 ## Part 3: The Data Needed
+
 - Farm boundaries (polygons defining individual agricultural production sites)
 - Sentinel-2 satellite imagery (multi-temporal multispectral observations)
 - Historical land cover data (regional baseline land-cover classification)
