@@ -29,44 +29,38 @@ area, **Akamkpa Local Government Area, Cross River State, Nigeria**.
   "Contains modified Copernicus Sentinel data 2020"
 - **Use in project:** visual identification and digitising of farm
   boundaries, and a baseline view of the land in 2020.
-- **Limitations:** Natural colour (RGB) has no infrared band, so it cannot
-  be used for vegetation indices such as NDVI. Cloud cover is common in
-  Cross River State. 2020 is a single time period, so more dates are
-  needed to show change over time.
+- **Limitations:** The imagery uses a natural-colour RGB composite, so it does not include infrared information needed for vegetation indices such as NDVI. Cloud cover can also affect Sentinel-2 imagery in Cross River State. Since this is imagery from a single period, additional dates will be needed to properly study changes in the landscape over time.
 
 ## 2. Forest Data (Global Forest Watch)
 
+This dataset is used to understand where and when tree cover was lost in Akamkpa LGA. It will help the project investigate changes around agricultural areas and compare forest loss with farm locations and forest reserves.
+
 - **Source:** Global Forest Watch (globalforestwatch.org)
-- **Dataset:** <dataset name, e.g. Tree cover loss / Hansen Global Forest Change>
-- **What it shows:** <tree cover loss by year, and tree cover in 2020>
-- **Time coverage:** e.g. 2020 to 2021
+- **Dataset:** Hansen Global Forest Change (GFC) – Tree Cover Loss
+- **What it shows:** The dataset shows areas where tree cover was lost and the year the loss occurred.
+- **Time coverage:** 2001–2024
 - **Spatial resolution:** <pixel size, 30 m for Hansen data>
 - **File format:** GeoTIFF (.tif)
 - **File name and size:** `gfw_forest_akamkpa_clipped.tif`, 17.8 MB,
   clipped to Akamkpa LGA
 - **CRS:** EPSG:32632 (WGS 84 / UTM zone 32N)
 - **Download date:** 23 September 2026
-- **Use in project:** identify where forest was lost from 2020 onwards,
-  and compare it with farm sites and forest reserves.
-- **Limitations:** at this resolution, small clearings can be missed.
-  "Loss" means tree cover was removed. It can include plantation harvest
-  or fire, so it does not always mean deforestation.
-
+- **How it will be used:** The project will focus on tree-cover loss from 2020 onwards. This information will be compared with farm boundaries and forest-reserve locations to help reconstruct the environmental history of agricultural land.
+- **Limitations:** A detected tree-cover loss does not automatically mean deforestation. Tree cover can be lost because of forest harvesting, plantation activities, fire, or other disturbances. Also, because the data has a 30 m resolution, very small areas of tree-cover loss may not be detected.
+  
 ## 3. Akamkpa LGA Boundary (Shapefile)
 
-- **Source:** <https://data.humdata.org>
-- **What it shows:** administrative boundary of Akamkpa Local Government
-  Area, Cross River State
+This boundary defines the study area for the AgriEvidence project. It represents Akamkpa Local Government Area in Cross River State, Nigeria, and is used to limit the analysis to the selected study area.
+
+- **Source:** Humanitarian Data Exchange (HDX) — https://data.humdata.org
+- **What it shows:** The administrative boundary of Akamkpa Local Government Area, Cross River State
 - **Geometry:** Polygon
 - **Original format:** Shapefile (.shp)
-- **Processed file:** `akamkpa_boundary_clipped.gpkg` (GeoPackage, 108 KB)
+- **Processed file:** akamkpa_boundary_clipped.gpkg (GeoPackage, 108 KB)
 - **CRS:** EPSG 32632
 - **Download date:** 23 September 2026
-- **Use in project:** defines the study area and is used to clip the
-  Sentinel-2 and forest datasets.
-- **Limitations:** administrative boundaries can be simplified and may
-  differ slightly between sources.
-
+- **How it will be Used in project:** The boundary defines the area of interest for the project. It will be used to clip the Sentinel-2 imagery and forest-change data so that the analysis focuses only on Akamkpa LGA.
+- **Limitations:** Administrative boundaries may be simplified and can differ slightly between data sources. The boundary is therefore used as the project study-area boundary and may not represent every legal or survey boundary with exact positional accuracy.
 ---
 
 ## Data Gaps (still needed)
