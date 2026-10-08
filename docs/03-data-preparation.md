@@ -65,7 +65,8 @@ analysis to the study area and reduce file size.
 ## 5. Area Calculation
 
 - **Method:** `$area` in the Field Calculator, using EPSG:32632
-- **Akamkpa LGA area:** <number> <unit, e.g. square metres or km²>
+- **Akamkpa LGA area:** 5,389.06 km² (about 538,906 hectares, or
+  5.389 × 10⁹ square metres)
 
 ## 6. Why GeoPackage
 
@@ -87,8 +88,4 @@ in one file, has no field-name limits, and works across GIS software.
 - **Location:** `data/processed/akamkpa_analysis_ready.gpkg`
 - **Stored locally only (too large for GitHub):** Sentinel-2 clipped raster
 
-## 9. Screenshots
 
-![CRS information](../screenshots/week3-crs.png)
-![Clipped layers](../screenshots/week3-clip.png)
-![Attribute table](../screenshots/week3-attribute-table.png)
