@@ -4,4 +4,4 @@ Which agricultural sites in Akamkpa Local Government Area, Cross River State, ov
 
 Built over twelve months with GeoDev Lab Africa, Cohort One.
 
-See [project-brief.md](project-brief.md) for the full brief.
+See [project-brief.md](docs/01-project-brief.md) for the full brief.
