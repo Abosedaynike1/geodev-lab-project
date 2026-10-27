@@ -10,7 +10,9 @@ Created the project environment with `uv` and installed pandas and requests. Use
 Worked with `wards.csv` and `analyse.py` to read ward records, process area values, and assign classifications to the wards.
 
 ## Week 8: Inspecting a Dataset
-Pending due to inability to download the dataset needed
+This section will be completed after carrying out the Week 8 data-inspection exercise.
+
+
 
 
 
