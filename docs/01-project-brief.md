@@ -32,3 +32,9 @@ Agricultural expansion in Akamkpa LGA frequently encroaches on protected tropica
 
   ## Part 5: What I Will Build
 I will build AgriEvidence, an automated geospatial engine that ingests farm boundary coordinates and checks them against forest disturbance and protected area layers. The system will auto-generate an Agricultural Land Evidence Report showing the farm's spatial boundary, historic land cover, and environmental compliance status.
+
+## Month 2
+
+- Week 5: hello.py, first Python script (screenshots/week5.png)
+- Week 6: set up the project with uv and pandas (pyproject.toml, uv.lock, check.py, screenshots/week6.png)
+- Week 7: analyse.py, Python basics with AgriEvidence farm data (screenshots/week7.png)
